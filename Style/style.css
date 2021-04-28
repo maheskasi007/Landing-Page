@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;    
+    text-decoration: none;
+}
+
+body{
+    background: url("../Assets/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+
+}
+
+nav{
+    background: rgb(255, 196, 0);
+    padding: 20px;
+}
+
+nav .nav-item{
+    color: rgb(255, 196, 0);
+    background: brown;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 20px;
+    border: 1px solid silver;
+}
+
+nav .nav-logo{
+    float: right;
+    margin-right: 50px;
+}
+
+.nav-item:hover{
+    color: #fff;
+    background: rgb(255, 196, 0);
+    border: 1px solid #fff;
+    transform: scale(2);
+}
+
+.nav-item:active{
+    color: brown;
+    border: 1px solid brown;
+}
+
+.para{
+    margin-top: 25%;
+    margin-left: 38%;
+    color: #fffeee;
+}
+
+.p-head{
+    margin-top: 15%;
+    margin-left: 43%;
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(255, 196, 0);
+}
+
+.p-body{
+    margin-top: 30px;
+    font-size: 40px;
+    color: rgb(243, 172, 65);
+    letter-spacing: 1.5px;
+}
+
+.p-body a{
+    color: rgb(255, 115, 0);
+}
+
+.p-body a:hover{
+    color: brown;
+}
+
+.p-body a:active{
+    color: #eee;
+}
+
+.btn{
+    padding: 10px;
+    margin-top: 30px;
+    width: auto;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 96, 4);
+    background: rgb(247, 193, 112);
+    cursor: pointer;
+    transform: scale(1);
+    border: 1px solid rgb(247, 193, 112);
+}
+
+.btn-signUp{
+    display: inline;
+    margin-left: 45%;
+}
+.btn-logIn{
+    margin-left: 15px;
+}
+
+.btn:hover{
+    color: white;
+    background: rgb(214, 136, 19);
+    border: 1px solid white;
+}
+
+.btn:active{
+    color: brown;
+    border: none;
+    transform: scale(0.8);
+    transition: ease-in-out;
+}
